@@ -29,11 +29,11 @@ uiUxBtn.addEventListener("click", () => {
 
 const buttons = document.querySelectorAll(".send-message__btn");
 
-buttons.forEach((item) => {
-  item.addEventListener("click", () => {
-    alert("Сообщение отправлено");
-  });
-});
+// buttons.forEach((item) => {
+//   item.addEventListener("click", () => {
+//     alert("Сообщение отправлено");
+//   });
+// });
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll("[data-close-button]");
