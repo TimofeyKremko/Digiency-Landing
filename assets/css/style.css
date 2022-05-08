@@ -116,6 +116,9 @@ flex: 1;
   .hero .left__content .btn {
     margin-bottom: 3rem;
   }
+  .portfolio__item {
+    min-width: 100%;
+  }
 }
 
 
@@ -362,6 +365,7 @@ font-size: 3rem;
   text-align: center;
   padding-bottom: 3.8rem;
   padding-top: 4rem;
+  max-width: 100%;
 }
 .section__header .main__text {
   margin-bottom: 1.5rem;
@@ -370,6 +374,7 @@ font-size: 3rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 7.5rem;
+  gap: 30px;
 }
 .card__bio h4 {
   margin-bottom: 12px;
@@ -468,12 +473,17 @@ width:30%;
   overflow: hidden;
   background-color: #FFF7F4;
 }
+.clients__feedback .wrapper {
+  max-width: 100%;
+}
 .slick-slide {
   max-width: 500px;
   margin-right: 30px;
 }
 .slick-slider {
   max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .slick-list {
   min-height: 350px;
@@ -562,13 +572,15 @@ width:30%;
     min-width: 100%;
     margin-bottom: 2rem;
     }
+    .slick-slide {
+      max-width: 100%;
+    }
+    .feedback__blocks {
+      display: flex !important;
+    }
   }
 
 
-  .clients__feedback .container{
-    min-width: 1600px;
-
-  }
 
   .blog__blocks {
     display: flex;

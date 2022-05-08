@@ -3,7 +3,7 @@ const userBtn = document.querySelector('.user-btn')
 
 sendBtns.forEach((item) => {
   item.addEventListener("click", () => {
-    Swal.fire("Форма отправлена", "Скоро с вами свяжутся", "success");
+    Swal.fire("Form sent out", "You will be contacted shortly", "success");
   });
 });
 
